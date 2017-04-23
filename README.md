@@ -9,6 +9,8 @@ git clone to ~/
 cd ~/dotfiles/
 chmod +x makesymlinks.sh
 ./makesymlinks.sh
+git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
+open VIM and insert :PluginInstall in normal mode
 ```
 
 ## Credit
